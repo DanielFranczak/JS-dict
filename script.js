@@ -1,6 +1,3 @@
-function myFunction (a, b){
-    let result = a + b;
-    return result;
-}
-
-alert(myFunction(1,2));
+let price = 180;
+if (price > 200) {alert("Dostales rabat")}
+else {alert("nie masz rabatu")};
