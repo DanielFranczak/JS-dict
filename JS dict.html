@@ -26,6 +26,20 @@
             <br> <br> Wywołanie funkcji: <br>
             alert(functionName(x, y));
         </p>
+        <p><br><b>Instrukcje warunkowe</b> <br> Instrukcje warunkowe służą do wyboru decyzji na podstawi warunku. Wyróżnia się instrukcje warunkową <b>if</b>, której składnia wygląda następująco: <br> <br> if (warunek) {<br>instrukcja jeśli warunek to prawda;} <br> else{ <br> instrukcja jeśli warunek to fałsz; }  <br> Przykład: <br> let price = 180; <br>
+        if (price > 200) { <br> alert("Dostales rabat")}
+        <br> else {<br> alert("nie masz rabatu")}; <br>
+        <br>Kolejny przykład to wykorzystanie bloku if else: <br>
+        let price = 180; <br>
+        if (price > 200) { <br> alert("Dostales rabat")}
+        <br> if else ((price <= 200) && (price > 0)) {<br> alert("nie masz rabatu")} <br>
+        else (alert("Blad systemu")
+        <br>    </p>
+        <p><b>Pętle</b><br>Pętla while: <br> Przykład: <br> while(warunek){<br> instrukcja } <br> W przypadku pętli należy pamiętać o iteracjach, jeśli o nich zapomnimy to może powstać pętla nieskoczona. Przykład <br> <br> var i = 0; <br> while(i < 10){<br>alert(i); i++} <br><br> Zatem na ekranie będą pojawiać się kolejne liczby 0,1,3...,9. Kolejną z pętli jest pętla <b>for</b>, działa podobnie jak while ale ma inną budowę. Budowa pętli for <br><br>
+        for(inicjalizacja zmiennej; warunek; iteracja){<br>instrukcje do wykonania} <br> <br> A teraz pora na przykład:<br> <br> for(let i = 10 ; i > 0; i--){<br> alert(i)} <br> <br> Taka funkcja wyświetli po kolei liczby od 10, 9, 8...,1. Istnieje również funkcja <b>do while </b> <br><br> Składnia takiej instrukcji to: <br><br> do{instrukcja} while (warunek); Działa ona wówczas gdy chcemy mieć pewność, że dana instrukcja została wywołana chociaż jeden raz.  </p> 
+        <p><b>Tablice</b> <br> Kolejnym podstawowym elementem są tablice. Najprościej mówiąc jest to element, który zawiera inne elementy(zawiera zbiór pewnych wartości). Przykład: <br> var numbers = [1,23,45,11,87]; Należy pamiętać, że aby odwołać się do konkretnej wartości, należy wybrać odpowiedni index dla wartości, indexowanie zaczyna się od liczby <b>0</b>. W tablicy mogą znajdować się wartości różnych typów int-y, float-y, stringi, tablice oraz inne. Przykład <br> <br> var myArray = [1,2,3,"4","abc", "test"]; <br> alert(myArray[0]); <br> alert(myArray[5]); <br><br>  Po zastosowaniu tych instrukcji na ekranie pojawią się wybrane wartości spod numerów indexów 0 i 5, zatem będą to wartości 1 oraz test. Kolejny przykład tablicy i wyświetlania jej wartości. <br><br>  var myArray = [1,2,3,"4","abc", "test"]; <br> for(var i = 0; i < myArray.length; i++){<br> alert(myArray[i]);} <br> Wykorzystano tutaj właściwość length, która pozwala na określenie ilości wartości w tablicy. Powyższy przykład obrazuje jak w prosty sposób wypisać wszystkie wartości znajdujące się w tablicy.   </p>
+        <p></p>
+
 
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
